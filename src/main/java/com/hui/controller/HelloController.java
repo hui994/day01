@@ -10,6 +10,8 @@ public class HelloController {
     @RequestMapping("/hello")
     @ResponseBody
     public String Hello(){
-        return "Hello3";
+        System.out.println("1");
+        System.out.println("2");
+        return "Hello";
     }
 }
