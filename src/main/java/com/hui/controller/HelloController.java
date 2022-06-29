@@ -12,6 +12,6 @@ public class HelloController {
     public String Hello(){
         System.out.println("1");
         System.out.println("2");
-        return "Hello pull";
+        return "Hello";
     }
 }
